@@ -1,0 +1,13 @@
+{
+  "name" : "better pop needs",
+  "id" : "",
+  "version" : "",
+  "picture": "thumbnail.png",
+  "supported_game_version" : "",
+  "tags" : [],
+  "short_description" : "Makes pop at low standard of living actually eat meat when it is cheaper than grain.",
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
