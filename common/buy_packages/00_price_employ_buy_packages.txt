@@ -138,6 +138,7 @@ wealth_13 = {
 		popneed_services = 47
 		popneed_free_movement = 10
 		popneed_intoxicants = 75
+		popneed_luxury_food = 2
 	}
 }
 wealth_14 = {

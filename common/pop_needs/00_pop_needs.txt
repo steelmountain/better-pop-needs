@@ -2,6 +2,10 @@
 # weight					The base weight that is applied to this good based on market Sell Order share
 # max_supply_share			The maximum weight that can be applied to this good based on market Sell Order share, relative supply above this amount will have no further impact on base weight
 # min_supply_share			If above 0, a minimum of this multiplier of the base weight will be applied to a good regardless of its market Sell Order share
+# goods						The good being referenced
+# weight					The base weight that is applied to this good based on market Sell Order share
+# max_supply_share			The maximum weight that can be applied to this good based on market Sell Order share, relative supply above this amount will have no further impact on base weight
+# min_supply_share			If above 0, a minimum of this multiplier of the base weight will be applied to a good regardless of its market Sell Order share
 
 popneed_simple_clothing = {
 	default = fabric
@@ -17,7 +21,7 @@ popneed_simple_clothing = {
 	entry = {
 		goods = clothes
 		
-		weight = 2
+		weight = 1
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
@@ -37,7 +41,7 @@ popneed_crude_items = {
 	entry = {
 		goods = furniture
 		
-		weight = 2
+		weight = 1
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
@@ -65,7 +69,7 @@ popneed_basic_food = {
 	entry = {
 		goods = meat
 		
-		weight = 1.5 # 30
+		weight = 1 # 30
 		max_supply_share = 0.9
 		min_supply_share = 0.0
 	}
@@ -73,7 +77,7 @@ popneed_basic_food = {
 	entry = {
 		goods = fruit
 		
-		weight = 1.25 # 30
+		weight = 1 # 30
 		max_supply_share = 0.9
 		min_supply_share = 0.0
 	}
@@ -82,15 +86,15 @@ popneed_basic_food = {
 		goods = sugar
 		
 		weight = 1 # 30
-		max_supply_share = 0.9
+		max_supply_share = 0.1
 		min_supply_share = 0.0
 	}
 	
 	entry = {
 		goods = groceries
 		
-		weight = 1.5 # 30
-		max_supply_share = 0.9
+		weight = 1 # 30
+		max_supply_share = 0.8
 		min_supply_share = 0.0
 	}
 }
@@ -101,7 +105,7 @@ popneed_heating = {
 	entry = {
 		goods = wood
 		
-		weight = 0.75
+		weight = 1
 		max_supply_share = 0.5
 		min_supply_share = 0.0
 	}
@@ -191,6 +195,13 @@ popneed_intoxicants = {
 		
 		weight = 1
 		max_supply_share = 0.75
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = wine
+		
+		weight = 1
+		max_supply_share = 0.5
 		min_supply_share = 0.0
 	}
 	
